@@ -369,15 +369,15 @@ void CZero_Mgr::Render_Unit(HDC a_HDC)
 		}
 	}
 
-	Rectangle(a_HDC, m_CurPos.x - m_HalfWidth, m_CurPos.y - m_HalfHeight, m_CurPos.x + m_HalfWidth, m_CurPos.y + m_HalfHeight);
+	//Rectangle(a_HDC, m_CurPos.x - m_HalfWidth, m_CurPos.y - m_HalfHeight, m_CurPos.x + m_HalfWidth, m_CurPos.y + m_HalfHeight);
 	MoveToEx(a_HDC, 0.0f, 650.0f, NULL);
-	LineTo(a_HDC, 2000.0f, 650.0f);
+	//LineTo(a_HDC, 2000.0f, 650.0f);
 
 	MoveToEx(a_HDC, 100.0f, 0.0f, NULL);
-	LineTo(a_HDC, 100.0f, 1000.0f);
+	//LineTo(a_HDC, 100.0f, 1000.0f);
 
 	MoveToEx(a_HDC, 1450.0f, 0.0f, NULL);
-	LineTo(a_HDC, 1450.0f, 1000.0f);
+	//LineTo(a_HDC, 1450.0f, 1000.0f);
 
 	SelectObject(a_HDC, OldBrush);
 	SelectObject(a_HDC, OldPen);
